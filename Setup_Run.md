@@ -27,7 +27,8 @@ jupyter lab --allow-root --port=8887 --no-browser --ip=0.0.0.0
 
 
 # Docker Container
-In the repository is an exported docker container `ml_docker.tar` file. This can be run and imported wit the following command
+In the repository is an exported docker container `ml_docker.tar` file. This can then be imported as a new image with the following command
 ```bash
 docker import ml_docker.tar <new image name>
 ```
+A new docker container will still need to be created with the newly imported image.
